@@ -51,7 +51,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 1rem;
+        
         
     }
     #contact{
@@ -60,10 +60,16 @@ body{
         text-align: center;
         
     }
-    .img-fluid,.rounded-iframe {
+    .img-fluid {
         width: 6rem;
         height: 3rem;
        }
+
+    .rounded-iframe{
+
+        width: 12rem;
+        height: 7rem;
+    }
     body{
         margin: 0 !important;
         padding: 0 !important;
