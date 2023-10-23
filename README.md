@@ -1,6 +1,6 @@
 # Creative Tech Website
 
-Welcome to the Creative Tech website! This repository contains the HTML and CSS files that make up the website. Each file serves a specific purpose in the website's structure and appearance.
+Welcome to the Creative Tech website! This repository contains the HTML, CSS and BOOTSTRAP files that make up the website. Each file serves a specific purpose in the website's structure and appearance.
 
 ## Files Overview
 
