@@ -1,99 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Audiowide", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Audiowide", sans-serif;
 }
 
-body{
-    margin: 0 8rem !important;
-    overflow: hidden;
+body {
+  margin: 0 8rem !important;
+  overflow: hidden;
 }
-#navbarSupportedContent{
-    flex-grow: unset;
-   
-}
-
-#logo{
-    width: 4rem;
-    border-radius: 1.5rem;
+#navbarSupportedContent {
+  flex-grow: unset;
 }
 
-.nav-item{
-    font-size: 2rem;
-    margin: 1rem;
+#logo {
+  width: 4rem;
+  border-radius: 1.5rem;
+}
+
+.nav-item {
+  font-size: 2rem;
+  margin: 1rem;
 }
 
 .nav-item:hover .nav-link {
-    color: aqua !important;
+  color: aqua !important;
+}
+
+.rounded-iframe {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+#subitted {
+  text-align: center;
+  margin: 4rem 2rem;
+}
+
+@media (max-width: 952px) {
+  .img-fluid,
+  .rounded-iframe {
+    width: 200px;
+    height: 100px;
+  }
+}
+@media (max-width: 913px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact {
+    margin-top: 1rem;
+
+    text-align: center;
+  }
+  .img-fluid {
+    width: 6rem;
+    height: 3rem;
   }
 
   .rounded-iframe {
-    border-radius: 1rem; 
-    overflow: hidden; 
-}
-
-#subitted{
-    text-align: center;
-    margin: 4rem 2rem;
-}
-
-
-@media (max-width: 952px) {
-    .img-fluid,.rounded-iframe {
-     width: 200px;
-     height: 100px;
-    }
+    width: 12rem;
+    height: 7rem;
   }
-@media (max-width: 913px) {
-    #container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-        
-    }
-    #contact{
-        margin-top: 1rem;
-        
-        text-align: center;
-        
-    }
-    .img-fluid {
-        width: 6rem;
-        height: 3rem;
-       }
-
-    .rounded-iframe{
-
-        width: 12rem;
-        height: 7rem;
-    }
-    body{
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-    .nav{
-        height: 10rem;
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
   }
-  .nav-item{
+  .nav {
+    height: 10rem;
+  }
+  .nav-item {
     font-size: 1rem;
     margin: 0;
   }
-  .collapse{
-    
+  .collapse {
     text-align: center;
   }
-  
-
+}
+@media (max-height: 715px) {
+  #container {
+    #form-group {
+      margin: 0 !important;
+      display: flex;
+      flex-direction: row;
+    }
   }
-  @media (max-height: 715px) {
-    #container {
-        #form-group{
-            margin: 0 !important;
-            display: flex;
-            flex-direction: row;
-        }
-
-  }}
+}
